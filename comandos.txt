@@ -1,0 +1,25 @@
+
+mkdir juliagoncalves
+ls
+cd juliagoncalves
+git init
+git config -- list
+git remote https://github.com/5456ju00/juliagoncalves.git
+git branch -M main
+git status
+git add .
+git status
+git commit -m "primeiro commit"
+git log
+git push -u origin main
+git branch
+git branch juliagoncalves
+git branch
+git checkout juliagoncalves
+git branch
+code .
+git add .
+git commit -m "segundo commit"
+git checkout main
+git merge juliagoncalves
+git push
